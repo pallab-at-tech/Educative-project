@@ -203,3 +203,83 @@ body{
     width: calc(100% - 17%);
     margin-left: 17%;
 }
+
+.home-content .left-side{
+    padding-left: 5%;
+    text-align: center;
+    font-size: 28px;
+    color: #fffffe;
+    font-weight: 400;
+    width: 20%;
+}
+.home-content .left-side .logo-name{
+    position: relative;
+    text-align: center;
+    bottom: 6px;
+}
+.home-content .right-side{
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.home-content .right-side .home a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #fffffe;
+}
+.home-content .right-side .about-courses a{
+    text-decoration: none;
+    color: #fffffe;
+}
+.home-content .right-side .contact a{
+    text-decoration: none;
+    color: #fffffe;
+}
+.home-content .right-side a:hover{
+    text-decoration: underline;
+    color:#fffffe;;
+    font-size: 30;
+}
+.home-content .right-side .sign-up-in-and-profile{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+
+.home-content .right-side .signup button{
+    margin-left: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 11px 13px;
+    background-color:#b8c1ec;
+    color: #232946;
+    font-size: 15px;
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.home-content .right-side .signup button:hover{
+    padding: 13px 15px;
+    background-color:#fffffe;
+}
+.home-content .right-side .login button{
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 11px 20px;
+    background-color:#b8c1ec;
+    color: #232946;
+    font-size: 15px;
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home-content .right-side .login button:hover{
+    padding: 13px 22px;
+    background-color:#fffffe;;
+}
+
+/* Home container end here. */
