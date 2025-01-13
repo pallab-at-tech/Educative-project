@@ -2,3 +2,12 @@
 .next-row{
     clear: both;
 }
+/* overflow x axis off */
+.overflow-off{
+    overflow-x: hidden;
+}
+
+/* for header hide */
+.nav-hide{
+    transform: translateY(-100%);
+}

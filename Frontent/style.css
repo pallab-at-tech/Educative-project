@@ -283,3 +283,80 @@ body{
 }
 
 /* Home container end here. */
+
+
+/* Body section start from here. */
+.body-section{
+    background-color: #25293c;
+    padding-top: 100px;
+    width: calc(100% - 5%);
+    transition: all 0.5s ease;
+    margin-left: 5%;
+}
+.sidebar.active ~ .body-section{
+    width: calc(100% - 17%);
+    margin-left: 17%;
+}
+
+.body-section .main-banner{
+    width: 100%;
+    text-align: center;
+}
+.body-section .main-banner img{
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+    object-fit:contain;
+    width: 800px;
+    border: 1px solid #b8c1ec;
+    box-shadow:1px  8px 40px 10px rgb(93 102 255 / 47%);
+}
+
+.body-section .upper-banner-text h2{
+    position: relative;
+    font-size: 41px;
+    font-weight: 600;
+    color: #fffffff2;
+    right: 8px;
+    margin-top: 14px;
+    margin-bottom: 12px;
+}
+
+.body-section .upper-banner-next-text h6{
+    position: relative;
+    font-size: 20px;
+    color:#ffffffa3;
+    font-weight: 10;
+}
+
+.body-section .main-banner .banner-text{
+    position: relative;
+    right: 203px;
+    top: -443px;
+}
+.body-section .main-banner .banner-text h4{
+    color: #eace99;
+    font-size: 70px;
+    padding-bottom: 24px;
+}
+
+.body-section .main-banner .banner-text h5{
+    color: #eace99;
+    font-size: 60px;
+    padding-bottom: 11px;
+    font-weight: 700;
+}
+.body-section .main-banner .banner-text button{
+    text-decoration: none;
+    border: 0;
+    outline: none;
+    padding:11px 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #b8c1ec;
+    color: #232946;
+}
+.body-section .main-banner .banner-text button:hover{
+    padding: 12px 12px;
+    background-color:#fffffe;
+}
