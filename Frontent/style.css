@@ -292,6 +292,8 @@ body{
     width: calc(100% - 5%);
     transition: all 0.5s ease;
     margin-left: 5%;
+    overflow: hidden;
+    max-height: 800px;
 }
 .sidebar.active ~ .body-section{
     width: calc(100% - 17%);
@@ -304,10 +306,10 @@ body{
 }
 .body-section .main-banner img{
 
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 80px;
     object-fit:contain;
-    width: 800px;
+    width: 850px;
     border: 1px solid #b8c1ec;
     box-shadow:1px  8px 40px 10px rgb(93 102 255 / 47%);
 }
@@ -318,7 +320,7 @@ body{
     font-weight: 600;
     color: #fffffff2;
     right: 8px;
-    margin-top: 14px;
+    margin-top: 10px;
     margin-bottom: 12px;
 }
 
@@ -331,13 +333,14 @@ body{
 
 .body-section .main-banner .banner-text{
     position: relative;
-    right: 203px;
-    top: -443px;
+    right: 224px;
+    top: -455px;
 }
 .body-section .main-banner .banner-text h4{
     color: #eace99;
     font-size: 70px;
     padding-bottom: 24px;
+    text-shadow: 3px 1px 4px rgb(198 206 222 / 63%), 0 2px 1px rgb(18 18 18), 3px 5px 4px rgb(152 0 0);
 }
 
 .body-section .main-banner .banner-text h5{
@@ -345,6 +348,7 @@ body{
     font-size: 60px;
     padding-bottom: 11px;
     font-weight: 700;
+    text-shadow: 3px 1px 4px rgb(198 206 222 / 63%), 0 2px 1px rgb(18 18 18), 3px 5px 4px rgb(152 0 0) ;
 }
 .body-section .main-banner .banner-text button{
     text-decoration: none;
@@ -360,3 +364,50 @@ body{
     padding: 12px 12px;
     background-color:#fffffe;
 }
+
+.demo-section{
+    background-color: #454e78;
+    /* padding-top: 100px; */
+    width: calc(100% - 5%);
+    transition: all 0.5s ease;
+    margin-left: 5%;
+    /* overflow: hidden; */
+    /* max-height: 800px; */
+}
+.sidebar.active ~ .demo-section{
+    width: calc(100% - 17%);
+    margin-left: 17%;
+}
+
+.animated-text{
+    overflow: hidden;
+    padding-top: 40px;
+}
+.animated-text h5{
+    color: #b8c1ec;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    animation-name: sliding-animated;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    
+}
+
+.animated-text h6{
+    color: #fffffff2;
+    font-size: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+@keyframes sliding-animated{
+    from {
+      translate: 0 70px;
+    }
+  
+    to {
+      translate: 0 0;
+    }
+  }
