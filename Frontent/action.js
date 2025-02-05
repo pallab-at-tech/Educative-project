@@ -20,7 +20,7 @@ let lastScrollTop = 36;
 window.addEventListener('scroll', () => {
 
     let scrollTop = document.documentElement.scrollTop;
-    console.log(scrollTop)
+    // console.log(scrollTop)
 
     if (lastScrollTop < scrollTop && lastScrollTop>36) {
         nav.classList.add('nav-hide');
@@ -29,4 +29,20 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('nav-hide');
     }
         lastScrollTop = scrollTop;
+})
+
+
+// getting animation text for a particular scroll.
+
+const xx = document.querySelector(".demo-section").querySelector(".animated-text");
+let scrollpos = 0;
+
+window.addEventListener('scroll' , ()=>{
+
+    let scrollpos = document.documentElement.scrollTop;
+    console.log(scrollpos); 
+
+    if(scrollpos >= 126){
+        xx.classList.add('showing-animation');
+    }
 })
