@@ -6,7 +6,8 @@
 
 body{
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    height: 100%;
     width: 100%;
     /* overflow: hidden; */
 }
@@ -430,3 +431,78 @@ body{
 }
 
 /* demo section end here. */
+
+/* footer start from here */
+
+
+
+.footer{
+    background-color: #232946;
+    width: calc(100% - 5%);
+    transition: all 0.5s ease;
+    margin-left: 5%;
+
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+    grid-template-areas: "box1 box1 box2"
+                         "box1 box1 box2"
+                         "box3 box3 box3"
+                         "box4 box5 box5"    
+    ;
+    
+}
+.sidebar.active ~ .footer{
+    width: calc(100% - 17%);
+    margin-left: 17%;
+}
+
+.footer #box1{
+    grid-area: box1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer #box1 .footer-logo{
+    margin-right:15%;
+}
+
+.footer #box2{
+    grid-area: box2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer #box2 i{
+    margin: 2%;
+}
+
+
+.footer #box3{
+    grid-area: box3;
+    padding: 0 150px;
+}
+.footer #box3 .footer-line{
+    height: 1px;
+    margin-top: 2%;
+    background-color:#b8c1ec;
+}
+
+
+.footer #box4{
+    grid-area: box4;
+    text-align: center;
+}
+
+
+.footer #box5{
+    grid-area: box5;
+}
+
+
+
+
+
