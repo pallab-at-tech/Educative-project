@@ -452,6 +452,8 @@ body{
                          "box3 box3 box3"
                          "box4 box5 box5"    
     ;
+
+    box-shadow:0px -9px 8px #293050f2;
     
 }
 .sidebar.active ~ .footer{
@@ -468,6 +470,15 @@ body{
 }
 .footer #box1 .footer-logo{
     margin-right:15%;
+    color: #fffffff2;
+    font-size: 22px;
+}
+.footer #box1 .about-us .footer-about{
+    color: #fffffff2;
+    padding-bottom: 15px;
+}
+.footer #box1 .about-us .footer-text h4{
+    color: #ffffffa3;
 }
 
 .footer #box2{
@@ -476,8 +487,54 @@ body{
     justify-content: center;
     align-items: center;
 }
+.footer #box2 a{
+    padding-left: 20px;
+}
+.footer #box2 .facebook-img img{
+    object-fit:cover;
+    height: 26px;
+    border-radius: 5px;
+}
+.footer #box2 .twitter-img img{
+    object-fit: fill;
+    border-radius: 5px;
+    height: 26px;
+    width: 29px;
+}
+.footer #box2 .whatsapp-img img{
+    object-fit: contain;
+    border-radius: 5px;
+    height: 26px;
+}
+.footer #box2 .instragum-logo-img img{
+    object-fit: contain;
+    border-radius: 5px;
+    height: 26px;
+}
+.footer #box2 .telegram-logo-img img{
+    object-fit:cover;
+    border-radius: 5px;
+    height: 26px;
+    width: 26px;
+}
+.footer #box2 a .footer-logo-img{
+    opacity: 0;
+    position: relative;
+    top: 31px;
+    left: 1px;
+}
 .footer #box2 i{
     margin: 2%;
+    background-color: #b8c1ec;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    box-shadow: 1px 1px 10px 2px #b3b5fc45;
+}
+.footer #box2 a:hover .footer-logo-img{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
 }
 
 
@@ -488,18 +545,32 @@ body{
 .footer #box3 .footer-line{
     height: 1px;
     margin-top: 2%;
-    background-color:#b8c1ec;
+    background-color:#b8c1eca2;
+    color: #232946;
 }
 
 
 .footer #box4{
     grid-area: box4;
     text-align: center;
+    color: #fffffff2;
 }
 
 
 .footer #box5{
     grid-area: box5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer #box5 .box5-left{
+    display: flex;
+    justify-content: space-between;
+}
+.footer #box5 .box5-left a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: #fffffff2;
 }
 
 
