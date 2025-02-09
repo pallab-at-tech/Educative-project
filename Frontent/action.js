@@ -29,7 +29,7 @@ window.addEventListener('scroll', () => {
         nav.classList.remove('nav-hide');
     }
         lastScrollTop = scrollTop;
-})
+});
 
 
 // getting animation text for a particular scroll.
@@ -45,4 +45,16 @@ window.addEventListener('scroll' , ()=>{
     if(scrollpos >= 126){
         xx.classList.add('showing-animation');
     }
-})
+});
+
+// click to go to automatic scroll to top.
+const top_scroll = document.querySelector("#scroll-top");
+console.log(top_scroll)
+
+top_scroll.addEventListener("click",()=>{
+
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    });
+});

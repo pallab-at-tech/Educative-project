@@ -467,6 +467,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 40px;
 }
 .footer #box1 .footer-logo{
     margin-right:15%;
@@ -486,9 +487,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.footer #box2 a{
-    padding-left: 20px;
 }
 .footer #box2 .facebook-img img{
     object-fit:cover;
@@ -540,13 +538,13 @@ body{
 
 .footer #box3{
     grid-area: box3;
-    padding: 0 150px;
+    padding: 0 130px;
+    padding-top: 20px;
 }
 .footer #box3 .footer-line{
     height: 1px;
     margin-top: 2%;
     background-color:#b8c1eca2;
-    color: #232946;
 }
 
 
@@ -554,6 +552,12 @@ body{
     grid-area: box4;
     text-align: center;
     color: #fffffff2;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.footer #box4 .in-box4-p:hover{
+    text-shadow:1px 1px 4px #7f81b7b8;
 }
 
 
@@ -561,16 +565,33 @@ body{
     grid-area: box5;
     display: flex;
     justify-content: space-evenly;
+    padding-left: 78px;
 }
 
 .footer #box5 .box5-left{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.footer #box5 .box5-left .in-box5:hover{
+    text-decoration: underline;
 }
 .footer #box5 .box5-left a{
     text-decoration: none;
     padding-left: 50px;
     color: #fffffff2;
+}
+.footer #box5 .box5-right button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    background-color: #b8c1ec;
+}
+.footer #box5 .box5-right button .fa-angles-up{
+    color: black;
 }
 
 
