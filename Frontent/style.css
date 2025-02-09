@@ -9,7 +9,20 @@ body{
     /* min-height: 100vh; */
     height: 100%;
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+.pre-loader{
+    height: 100vh;
+    width: 100%;
+    background-color:#161518;
+    position: relative;
+    z-index: 500;
+    background-image: url(img/cat-preloader-gif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    display:block;
 }
 
 /* side ber start from here */

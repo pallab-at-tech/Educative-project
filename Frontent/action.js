@@ -58,3 +58,13 @@ top_scroll.addEventListener("click",()=>{
         behavior:'smooth'
     });
 });
+
+// after load window preloder gif disappear.
+
+let body = document.querySelector("body");
+let pre_loader = document.querySelector(".pre-loader");
+
+window.addEventListener("load" , ()=>{
+    pre_loader.style.display = "none";
+    body.style.overflow = "auto";
+});
