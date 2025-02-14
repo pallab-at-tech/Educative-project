@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,12 @@
     <link rel="stylesheet" href="login-style.css">
 
     <!-- Font Awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body>
 
     <div class="main-page">
@@ -25,9 +29,9 @@
                 <p>or use your account</p>
                 <form action="">
                     <div class="email email-password">
-                       <label for="type-email">
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                       </label>
+                        <label for="type-email">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </label>
                     </div>
                     <div class="password email-password">
                         <label for="type-password">
@@ -35,11 +39,13 @@
                         </label>
                     </div>
 
-                    <a href="#">Forgot Your Password ?</a>
-                    <div class="submit">
-                        <input type="submit" value="submit">
+                    <div class="forgot-password">
+                        <a href="#">Forgot Your Password ?</a>
                     </div>
-                    
+                    <div class="submit">
+                        <input type="submit" value="SIGN IN">
+                    </div>
+
                 </form>
 
             </div>
@@ -48,8 +54,44 @@
                 <p>Enter your personal details and start your journey with us.</p>
                 <button id="sign-up-id">SIGN UP</button>
             </div>
+
+            <div class="left-pro">
+                <h4>Welcome Back!</h4>
+                <p>To connected with us please login with your personal info</p>
+                <button id="sign-up-id">SIGN IN</button>
+            </div>
+            <div class="right-pro">
+                <h1>Sign up</h1>
+                <div class="login-logo">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                </div>
+                <p>or use your email for registration</p>
+                <form action="">
+                    <div class="name email-password">
+                        <label for="type-password">
+                            <input type="text" name="name" id="name" placeholder="Name" required>
+                        </label>
+                    </div>
+                    <div class="email email-password">
+                        <label for="type-email">
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </label>
+                    </div>
+                    <div class="password email-password">
+                        <label for="type-password">
+                            <input type="text" name="password" id="password" placeholder="password" required>
+                        </label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="SIGN IN">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    
+
+    <script src="login.js"></script>
 </body>
+
 </html>
