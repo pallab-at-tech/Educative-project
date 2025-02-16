@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* sign up section start from here */
 .main-page{
     height: 100vh;
     width: 100vw;
@@ -12,7 +13,7 @@
 }
 .left{
     height: 100%;
-    width: 56%;
+    width: 50%;
     background-color: #f6f5f7;
     display: flex;
     flex-direction: column;
@@ -53,8 +54,6 @@
     color: #483f3f;
     margin: 13px;
 }
-
-
 .left .sign-up-form{
     display: flex;
     flex-direction: column;
@@ -85,10 +84,15 @@
     background-color: #2e2e2ec9;
     color: white;
     font-size: 12px;
+    cursor: pointer;
 }
 .left .sign-up-login{
     display: flex;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left .sign-up-login a{
+    color: #0a046f;
 }
 .left .sign-up-login p{
     margin-right: 2px;
@@ -108,9 +112,132 @@
 
 .right{
     height: 100%;
-    width: 44%;
+    width: 50%;
     background: url(right-side-img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+/* sign up section end here */
+
+
+/* Log in section start from here */
+.main-page-next{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f6f5f7;
+    display: flex;
+}
+.left-next{
+    height: 100%;
+    width: 50%;
+    background-color: #f6f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-next{
+    height: 100%;
+    width: 50%;
+    background: url(right-side-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.left-next h1{
+    margin-bottom: 15px;
+}
+.left-next .sign-in-google{
+    background-color: rgb(193 193 193 / 58%);
+    padding: 10px 106px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 26px;
+}
+.left-next .sign-in-facebook{
+    background-color: rgb(193 193 193 / 58%);
+    padding: 10px 101px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.left-next .sign-in-google a{
+    text-decoration: none;
+    color: black;
+}
+.left-next .sign-in-facebook a{
+    text-decoration: none;
+    color: black;
+}
+.left-next .sign-in-google i{
+    margin-right: 14px;
+}
+.left-next .sign-in-facebook i{
+    margin-right: 11px;
+}
+.left-next .sign-in-or{
+    color: #483f3f;
+    margin: 13px;
+}
+.left-next .sign-in-form{
+    display: flex;
+    flex-direction: column;
+}
+.left-next #emailx{
+    margin: 10px 15px;
+    padding: 11px 108px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.left-next #passwordx{
+    margin: 10px 15px;
+    padding: 10px 108px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.left-next .sign-in-submit{
+    text-align: center;
+    margin: 6px;
+}
+.left-next #submitx{
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    background-color: #2e2e2ec9;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+.left-next .sign-in-forgot-password{
+    margin: 8px;
+}
+.left-next .sign-in-forgot-password a{
+    color: #0a046f;
+    text-decoration: none;
+}
+.left-next .sign-in-login{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left-next .sign-in-login a{
+    color: #0a046f;
+}
+.left-next .sign-in-login p{
+    margin-right: 2px;
+}
+.left-next .sign-in-term{
+    width: 30%;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px;
+    color: #483f3f;
+}
+.left-next .sign-in-term p{
+    margin: 0 9px;
+    font-size: 14px;
+}
+/* Log in section end here */
