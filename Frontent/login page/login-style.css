@@ -7,249 +7,110 @@
 .main-page{
     height: 100vh;
     width: 100vw;
+    background-color: #f6f5f7;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f6f5f7;;
 }
-.total_div{
-    height: 65%;
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10px;
-    outline: none;
-    box-shadow: 1px 2px 20px 5px #b8b7b7;
-    position: relative;
-}
-
-/* sign-in section start from here. */
-
-.total_div .left{
-    width: 50%;
+.left{
     height: 100%;
-    outline: none;
-    border: 0;
-    border-radius: 10px 0 0 10px;
-
+    width: 56%;
+    background-color: #f6f5f7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;
-    z-index: 10;
 }
-.total_div .left h1{
-    font-size: 38px;
-    letter-spacing: 0.5px;
-    margin-top: -20px;
+.left h1{
+    margin-bottom: 15px;
 }
-.total_div .left .login-logo{
-    display: flex;
-    justify-content: center;
-    margin: 5px 0;
-}
-.total_div .left .login-logo .fa-facebook-f{
-    border: 1px solid #948d8d7d;
-    border-radius: 50%;
-    margin: 10px;
-    padding: 11px 14px;
-    text-decoration: none;
-    color:#423e3e;
-}
-.total_div .left .login-logo .fa-google{
-    padding: 10px;
-    border: 1px solid #948d8d7d;
-    border-radius: 50%;
-    margin: 10px;
-    padding: 11px;
-    text-decoration: none;
-    color: #423e3e;
-}
-.total_div .left p{
-    letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 18px;
-}
-.total_div .left .email-password input{
-    background-color: #ccc1c142;
-    padding: 15px;
+.left .sign-up-google{
+    background-color: rgb(193 193 193 / 58%);
+    padding: 10px 106px;
     border-radius: 5px;
-    width: 240px;
-    height: 40px;
-    outline: 0;
-    border: none;
-    margin: 4px 0;
-}
-.total_div .left .forgot-password{
-    margin: 20px 0;
-    font-size: 15px;
-    text-align: center;
-}
-.total_div .left a{
-    text-decoration: none;
-    color: #423e3e;
-}
-.total_div .left .submit{
-    text-align: center;
-    margin-top: 8px;
-}
-.total_div .left .submit input{
-    padding: 12px 32px;
-    border-radius: 20px;
-    background: linear-gradient(45deg,  #c934a7, #3c48bc);
-    color: #f6f5f7;
-    border: none;
-}
-
-
-.total_div .right{
-    width: 50%;
-    height: 100%;
-    background-image: linear-gradient(to right, #c934a7, #3c48bc);
-    outline: none;
-    border: 0;
-    border-radius: 0 10px 10px 0;
-    
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #FFFFFF;
-    line-height: 2;
-    padding: 5%;
-    display: none;
-    z-index: 10;
-}
-.total_div .right h4{
-    font-size: 45px;
-}
-.total_div .right p{
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    text-align: center;
-    margin: 0 0 40px;
-    line-height: 1.5;
-}
-.total_div .right button{
-    padding: 12px 38px;
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    border-radius: 36px;
-    color: #FFFFFF;
-    font-weight: 500;
-}
-
-/* sign-in section end here. */
-
-/* sign-up section start from here. */
-.total_div .left-pro{
-    width: 50%;
-    height: 100%;
-    background-image: linear-gradient(to right, #c934a7, #3c48bc);
-    outline: none;
-    border: 0;
-    border-radius: 10px 0 0 10px;
-    
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: #FFFFFF;
-    line-height: 2;
-    padding: 5%;
-    z-index: 10;
-}
-.total_div .left-pro h4{
-    font-size: 45px;
-}
-.total_div .left-pro p{
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    text-align: center;
-    margin: 0 0 40px;
-    line-height: 1.5;
-}
-.total_div .left-pro button{
-    padding: 12px 38px;
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    border-radius: 36px;
-    color: #FFFFFF;
-    font-weight: 500;
-}
-
-.total_div .right-pro{
-    width: 50%;
-    height: 100%;
-    outline: none;
-    border: 0;
-    border-radius: 0 10px 10px 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-}
-.total_div .right-pro h1{
-    font-size: 38px;
-    letter-spacing: 0.5px;
-    margin-top: -20px;
-}
-.total_div .right-pro .login-logo{
-    display: flex;
-    justify-content: center;
-    margin: 5px 0;
-}
-.total_div .right-pro .login-logo .fa-facebook-f{
-    border: 1px solid #948d8d7d;
-    border-radius: 50%;
     margin: 10px;
-    padding: 11px 14px;
-    text-decoration: none;
-    color:#423e3e;
+    margin-top: 26px;
 }
-.total_div .right-pro .login-logo .fa-google{
-    padding: 10px;
-    border: 1px solid #948d8d7d;
-    border-radius: 50%;
-    margin: 10px;
-    padding: 11px;
-    text-decoration: none;
-    color: #423e3e;
-}
-.total_div .right-pro p{
-    letter-spacing: 1px;
-    text-align: center;
-    margin-bottom: 18px;
-}
-.total_div .right-pro .email-password input{
-    background-color: #ccc1c142;
-    padding: 15px;
+.left .sign-up-facebook{
+    background-color: rgb(193 193 193 / 58%);
+    padding: 10px 101px;
     border-radius: 5px;
-    width: 240px;
-    height: 40px;
-    outline: 0;
-    border: none;
-    margin: 4px 0;
+    margin: 10px;
 }
-.total_div .right-pro .submit{
-    text-align: center;
-    margin-top: 8px;
+.left .sign-up-google a{
+    text-decoration: none;
+    color: black;
 }
-.total_div .right-pro .submit input{
-    padding: 12px 32px;
-    border-radius: 20px;
-    background: linear-gradient(45deg,  #c934a7, #3c48bc);
-    color: #f6f5f7;
-    border: none;
+.left .sign-up-facebook a{
+    text-decoration: none;
+    color: black;
 }
-/* sign-up section end here. */
+.left .sign-up-google i{
+    margin-right: 14px;
+}
+.left .sign-up-facebook i{
+    margin-right: 11px;
+}
+.left .sign-up-or{
+    color: #483f3f;
+    margin: 13px;
+}
 
+
+.left .sign-up-form{
+    display: flex;
+    flex-direction: column;
+}
+.left #email{
+    margin: 10px 15px;
+    padding: 11px 108px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.left #password{
+    margin: 10px 15px;
+    padding: 10px 108px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.left .sign-up-submit{
+    text-align: center;
+    margin: 6px;
+}
+.left #submit{
+    margin: 10px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    background-color: #2e2e2ec9;
+    color: white;
+    font-size: 12px;
+}
+.left .sign-up-login{
+    display: flex;
+    margin-top: 10px;
+}
+.left .sign-up-login p{
+    margin-right: 2px;
+}
+.left .sign-up-term{
+    width: 30%;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px;
+    color: #483f3f;
+}
+.left .sign-up-term p{
+    margin: 0 9px;
+    font-size: 14px;
+}
+
+
+.right{
+    height: 100%;
+    width: 44%;
+    background: url(right-side-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

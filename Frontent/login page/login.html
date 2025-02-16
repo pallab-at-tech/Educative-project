@@ -19,76 +19,43 @@
 <body>
 
     <div class="main-page">
-        <div class="total_div">
-            <div class="left">
-                <h1>Sign in</h1>
-                <div class="login-logo">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-google"></i></a>
-                </div>
-                <p>or use your account</p>
-                <form action="">
-                    <div class="email email-password">
-                        <label for="type-email">
-                            <input type="email" name="email" id="email" placeholder="Email" required>
-                        </label>
-                    </div>
-                    <div class="password email-password">
-                        <label for="type-password">
-                            <input type="text" name="password" id="password" placeholder="password" required>
-                        </label>
-                    </div>
-
-                    <div class="forgot-password">
-                        <a href="#">Forgot Your Password ?</a>
-                    </div>
-                    <div class="submit">
-                        <input type="submit" value="SIGN IN">
-                    </div>
-
-                </form>
-
+        <div class="left">
+            <h1>Create a account</h1>
+            <div class="sign-up-google">
+                <a href="#">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <span>Continue with google</span>
+                </a>
             </div>
-            <div class="right">
-                <h4>Hello,Friends!</h4>
-                <p>Enter your personal details and start your journey with us.</p>
-                <button id="sign-up-id">SIGN UP</button>
+            <div class="sign-up-facebook">
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Continue with facebook</span>
+                </a>
             </div>
 
-            <div class="left-pro">
-                <h4>Welcome Back!</h4>
-                <p>To connected with us please login with your personal info</p>
-                <button id="sign-up-id-pro">SIGN IN</button>
+            <p class="sign-up-or">or , continue with email</p>
+            <form action="" class="sign-up-form">
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="email" required>
+                </label>
+                <label for="password">
+                    <input type="text" name="password" id="password" placeholder="password" required>
+                </label>
+                <div class="sign-up-submit"><input type="submit" name="submit" id="submit" value="SIGN UP"></div>
+            </form>
+
+            <hr>
+            <div class="sign-up-login">
+                <p>Already have an account?</p>
+                <a href="#">Log in </a>
             </div>
-            <div class="right-pro">
-                <h1>Sign up</h1>
-                <div class="login-logo">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-google"></i></a>
-                </div>
-                <p>or use your email for registration</p>
-                <form action="">
-                    <div class="name email-password">
-                        <label for="type-password">
-                            <input type="text" name="name" id="name" placeholder="Name" required>
-                        </label>
-                    </div>
-                    <div class="email email-password">
-                        <label for="type-email">
-                            <input type="email" name="email-pro" id="email-pro" placeholder="Email" required>
-                        </label>
-                    </div>
-                    <div class="password email-password">
-                        <label for="type-password">
-                            <input type="text" name="password-pro" id="password-pro" placeholder="password" required>
-                        </label>
-                    </div>
-                    <div class="submit">
-                        <input type="submit" value="SIGN IN">
-                    </div>
-                </form>
+            <div class="sign-up-term">
+                <p>By continuing, you agree to abcdefgh's
+                    Terms of Service and Privacy Policy</p>
             </div>
         </div>
+        <div class="right"></div>
     </div>
 
     <script src="login.js"></script>
