@@ -241,3 +241,266 @@
     font-size: 14px;
 }
 /* Log in section end here */
+
+
+/* Reset password page start from here */
+
+/* In Reset page header section start from here */
+
+.f-main .f-header{
+    position: fixed;
+    height: 78px;
+    width: 100%;
+    transition: all 0.5s ease;
+    background-color: #232946;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    box-shadow: -0px 5px 4px #29305091;
+}
+.f-header .left-side{
+    padding-left: 5%;
+    text-align: center;
+    font-size: 28px;
+    color: #fffffe;
+    font-weight: 400;
+    width: 20%;
+}
+.f-header .left-side .logo-name{
+    position: relative;
+    text-align: center;
+    bottom: 6px;
+}
+.f-header .right-side{
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.f-header .right-side .home a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #fffffe;
+}
+.f-header .right-side .about-courses a{
+    text-decoration: none;
+    color: #fffffe;
+}
+.f-header .right-side .contact a{
+    text-decoration: none;
+    color: #fffffe;
+}
+.f-header .right-side a:hover{
+    text-decoration: underline;
+    color:#fffffe;;
+    font-size: 30;
+}
+.f-header .right-side .sign-up-in-and-profile{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+.f-header .right-side .signup button{
+    margin-left: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 11px 13px;
+    background-color:#b8c1ec;
+    color: #232946;
+    font-size: 15px;
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.f-header .right-side .signup button:hover{
+    padding: 13px 15px;
+    background-color:#fffffe;
+}
+.f-header .right-side .login button{
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 11px 20px;
+    background-color:#b8c1ec;
+    color: #232946;
+    font-size: 15px;
+    margin-top: -12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.f-header .right-side .login button:hover{
+    padding: 13px 22px;
+    background-color:#fffffe;;
+}
+
+/* In Reset page header section end here */
+
+/* In Reset page body section start from here  */
+
+.f-main .f-body{
+    background-color: #25293c;
+    padding-top: 100px;
+    width: 100%;
+    height: calc( 100vh - 278px );
+    transition: all 0.5s ease;
+    overflow: hidden;
+    max-height: 800px;
+}
+
+/* In Reset page body section end here */
+
+/* In Reset page footer section start from here  */
+.f-footer{
+    background-color: #232946;
+    width: 100%;
+    transition: all 0.5s ease;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+    grid-template-areas: "box1 box1 box2"
+                         "box1 box1 box2"
+                         "box3 box3 box3"
+                         "box4 box5 box5"    
+    ;
+
+    box-shadow:0px -9px 8px #293050f2;
+    
+}
+.f-footer #box1{
+    grid-area: box1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+}
+.f-footer #box1 .footer-logo{
+    margin-right:15%;
+    color: #fffffff2;
+    font-size: 22px;
+}
+.f-footer #box1 .about-us .footer-about{
+    color: #fffffff2;
+    padding-bottom: 15px;
+}
+.f-footer #box1 .about-us .footer-text h4{
+    color: #ffffffa3;
+}
+
+.f-footer #box2{
+    grid-area: box2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-footer #box2 .facebook-img img{
+    object-fit:cover;
+    height: 26px;
+    border-radius: 5px;
+}
+.f-footer #box2 .twitter-img img{
+    object-fit: fill;
+    border-radius: 5px;
+    height: 26px;
+    width: 29px;
+}
+.f-footer #box2 .whatsapp-img img{
+    object-fit: contain;
+    border-radius: 5px;
+    height: 26px;
+}
+.f-footer #box2 .instragum-logo-img img{
+    object-fit: contain;
+    border-radius: 5px;
+    height: 26px;
+}
+.f-footer #box2 .telegram-logo-img img{
+    object-fit:cover;
+    border-radius: 5px;
+    height: 26px;
+    width: 26px;
+}
+.f-footer #box2 a .footer-logo-img{
+    opacity: 0;
+    position: relative;
+    top: 31px;
+    left: 1px;
+}
+.f-footer #box2 i{
+    margin: 2%;
+    background-color: #b8c1ec;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    box-shadow: 1px 1px 10px 2px #b3b5fc45;
+}
+.f-footer #box2 a:hover .footer-logo-img{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+.f-footer #box3{
+    grid-area: box3;
+    padding: 0 130px;
+    padding-top: 20px;
+}
+.f-footer #box3 .footer-line{
+    height: 1px;
+    margin-top: 2%;
+    background-color:#b8c1eca2;
+}
+
+
+.f-footer #box4{
+    grid-area: box4;
+    text-align: center;
+    color: #fffffff2;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.f-footer #box4 .in-box4-p:hover{
+    text-shadow:1px 1px 4px #7f81b7b8;
+}
+
+
+.f-footer #box5{
+    grid-area: box5;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 78px;
+}
+
+.f-footer #box5 .box5-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-footer #box5 .box5-left .in-box5:hover{
+    text-decoration: underline;
+}
+.f-footer #box5 .box5-left a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: #fffffff2;
+}
+.f-footer #box5 .box5-right button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+    background-color: #b8c1ec;
+}
+.f-footer #box5 .box5-right button .fa-angles-up{
+    color: black;
+}
+
+/* In Reset page footer section end here */
+
+/* Reset password page end here */
