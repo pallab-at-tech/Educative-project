@@ -332,7 +332,6 @@
 
 .f-header .right-side .login button:hover{
     padding: 13px 22px;
-    background-color:#fffffe;;
 }
 
 /* In Reset page header section end here */
@@ -343,10 +342,39 @@
     background-color: #25293c;
     padding-top: 100px;
     width: 100%;
-    height: calc( 100vh - 278px );
-    transition: all 0.5s ease;
-    overflow: hidden;
-    max-height: 800px;
+    height: calc( 100vh - 218px );
+    text-align: center;
+}
+.f-body h2{
+    color: #fffffff2;
+    margin-top: 110px;
+    margin-left: -142px;
+}
+.f-body p{
+    color: #fffffff2;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: -56px;
+}
+.f-body #sendx{
+    padding: 8px 71px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color:#313963;
+    margin: 10px 0;
+}
+.f-body #sendx:focus{
+    border: 1px solid #b8c1ec;
+}
+.f-body #send-submitx{
+    padding: 8px 80px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color:#b8c1ec;
+    margin-top: 5px;
+    
 }
 
 /* In Reset page body section end here */
