@@ -24,15 +24,15 @@
     margin-bottom: 15px;
 }
 .left .sign-up-google{
-    background-color: rgb(193 193 193 / 58%);
-    padding: 10px 106px;
+    background-color: rgb(193 193 193);
+    padding: 10px 122px;
     border-radius: 5px;
     margin: 10px;
     margin-top: 26px;
 }
 .left .sign-up-facebook{
-    background-color: rgb(193 193 193 / 58%);
-    padding: 10px 101px;
+    background-color: rgb(193 193 193);
+    padding: 10px 118px;
     border-radius: 5px;
     margin: 10px;
 }
@@ -60,13 +60,13 @@
 }
 .left #email{
     margin: 10px 15px;
-    padding: 11px 108px;
+    padding: 11px 124px;
     border-radius: 5px;
     border: 1px solid gray;
 }
 .left #password{
     margin: 10px 15px;
-    padding: 10px 108px;
+    padding: 10px 125px;
     border-radius: 5px;
     border: 1px solid gray;
 }
@@ -81,7 +81,7 @@
     border-radius: 5px;
     outline: 0;
     border: 0;
-    background-color: #2e2e2ec9;
+    background-color: #1a2169c9;
     color: white;
     font-size: 12px;
     cursor: pointer;
@@ -113,7 +113,7 @@
 .right{
     height: 100%;
     width: 50%;
-    background: url(right-side-img.jpg);
+    background: url(login-side-pannel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,7 +140,7 @@
 .right-next{
     height: 100%;
     width: 50%;
-    background: url(right-side-img.jpg);
+    background: url(login-side-pannel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -149,15 +149,15 @@
     margin-bottom: 15px;
 }
 .left-next .sign-in-google{
-    background-color: rgb(193 193 193 / 58%);
-    padding: 10px 106px;
+    background-color: rgb(193 193 193);
+    padding: 10px 122px;
     border-radius: 5px;
     margin: 10px;
     margin-top: 26px;
 }
 .left-next .sign-in-facebook{
-    background-color: rgb(193 193 193 / 58%);
-    padding: 10px 101px;
+    background-color: rgb(193 193 193);
+    padding: 10px 118px;
     border-radius: 5px;
     margin: 10px;
 }
@@ -185,13 +185,13 @@
 }
 .left-next #emailx{
     margin: 10px 15px;
-    padding: 11px 108px;
+    padding: 11px 124px;
     border-radius: 5px;
     border: 1px solid gray;
 }
 .left-next #passwordx{
     margin: 10px 15px;
-    padding: 10px 108px;
+    padding: 10px 125px;
     border-radius: 5px;
     border: 1px solid gray;
 }
@@ -206,7 +206,7 @@
     border-radius: 5px;
     outline: 0;
     border: 0;
-    background-color: #2e2e2ec9;
+    background-color: #1a2169c9;
     color: white;
     font-size: 12px;
     cursor: pointer;
